@@ -1,0 +1,13 @@
+# Build Docker Image from Dockerfile instructions:
+docker build -t fenicsenv_tut .
+
+# Run Docker Container from built Image and enter its terminal:
+# Run Command | iteractive | container name | data volume command | image name | open terminal command   
+docker run -it --name fenicsenv_cont -v $(pwd)/data:/data fenicsenv /bin/bash
+
+# Start and attach to container:
+docker start -a fenicsenv
+
+
+# In the case of missing library, attach to container terminal, install the missing library and run:
+python3 -m pip freeze > requirements.txt
