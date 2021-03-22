@@ -1,4 +1,4 @@
-# DockerizedFEniCsFirstSteps
+# Dockerized FEniCs First Steps
 
 This first code version is set with an initial tutorial of FEniCs Library and how to solve differential equations using finite elements method within Python.
 
