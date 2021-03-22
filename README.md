@@ -1,6 +1,6 @@
-# multiphaseMicronitFlow
+# DockerizedFEniCsFirstSteps
 
-This first code version is set with an initial tutorial of FEniCs Library and how to solve differential equations using finite elements method within Python
+This first code version is set with an initial tutorial of FEniCs Library and how to solve differential equations using finite elements method within Python.
 
 This tutorial is already using a docker container definition, since FEniCs needs Linux kernel to run.
 
